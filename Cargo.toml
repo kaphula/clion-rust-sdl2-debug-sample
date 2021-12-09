@@ -1,0 +1,12 @@
+[package]
+name = "testing_rust_debugger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dependencies.sdl2]
+default-features = false
+version = "0.34.5"
+#features = ["bundled", "mixer", "static-link"]
+features = ["mixer", "static-link", "use-pkgconfig"]
